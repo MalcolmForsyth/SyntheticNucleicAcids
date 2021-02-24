@@ -8,53 +8,124 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Modeling Synthetic Nucleic Acids</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+  
   </head>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">EOH 2020</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
-          <a class="nav-link active" href="/about">Event Info</a>
-          <a class="nav-link active" href="/model">XNA Finder</a>
-          <a class="nav-link active" href="/XNAInfo">Nucleic Acids</a>
-          <a class="nav-link active" href="/TargetsInfo">In-Body Targets</a>
-        </div>
-      </div>
-    </div>
-  </nav>
+
   <body>
-    <section id="cover">
-      <div id="cover-caption">
-        <div class="container">
-          <div class="col-sm-10 col-sm-offset-1">
-            <h1> SyntheticNucleicAcids </h1>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
-            <form action="" class="form-inline">
-                <div class="form-group">
-                    <label class="sr-only"> Name</label>
-                    <input type="text" class="form-control for-control-lg" placeholder="Jane Doe">
-                </div>
-                <div class="form-group">
-                    <label class="sr-only"> Email</label>
-                    <input type="text" class="form-control for-control-lg" placeholder="Jane@gmail.com">
-                </div>
-                <button type="submit" class="btn btn-success btn-lg"> Register </button>
-            </form>
-
-            <br>
-
-            <a href="#nav-main" class="btn btn-seconday-outline btn-sm" role="button">&darr;</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">EOH 2020</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+            <a class="nav-link active" href="/about">Event Info</a>
+            <a class="nav-link active" href="/model">XNA Finder</a>
+            <a class="nav-link active" href="/XNAInfo">Nucleic Acids</a>
+            <a class="nav-link active" href="/TargetsInfo">In-Body Targets</a>
           </div>
         </div>
       </div>
-    </section>
+    </nav>
 
+    <main role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-3">Welcome to EOH!</h1>
+
+          <p>Engineering Open House is an annual event where students demonstrate their  
+          creativity and technical skill through a variety of exhibits. 
+          This year marks the 100th anniversary of EOH, and though unprecedented 
+          events have caused it to be a little different this year, we still hope to 
+          create a memorable and impactful experience!</p>
+
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Let's get started! &raquo;</a></p>
+        </div>
+      </div>
+
+
+    <!--  FORMATTING FOR 2 ROWS OF INFO (ROW 1)
+    <div class="container">
+        <div class="row">
+          <div class = "text-xs-center">
+            <h2>Our Exhibit</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+    
+    <!--  FORMATTING FOR 2 ROWS OF INFO (ROW 2)
+      <div class="container">
+        <div class="row">
+          <div class="text-xs-center">
+
+            <h2>BMES</h2>
+            <p>Info about BMES</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+          </div>
+
+      </div> <!-- /container -->
+        
+     
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Our Exhibit</h2>
+            <p>In recent years, scientists have been developing synthetic 
+            nucleic acids, called Xeno Nucleic Acids (XNA), which function 
+            like DNA and RNA, but are spliced with a completely different 
+            structural backbone to serve human purposes. Utilizing the 
+            unique structure of XNA, researchers are looking to solve 
+            biomolecular problems, protect biodiversity, and cure 
+            degenerative diseases. In this exhibit, we’ll explore the 
+            development of XNA, and you’ll get to build your own 
+            nucleic acid and examine its properties.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+          </div>
+          <div class="col-md-6">
+            <h2>BMES</h2>
+            <p>We are part of the Biomedical Engineering Society at U of I! 
+            Our society helps support the bioengineering community by 
+            offering mentoring, outreach, and technical opportunities, such 
+            as this event. Click the link below to learn more about BMES.</p>
+            <img src="https://static1.squarespace.com/static/581e1df8f5e231b25f8e09e5/t/5de57a3d29802b34bcbd94cb/1605840115635/"
+             style="float:right;width:250px;height:250px;">
+            <p><a class="btn btn-secondary" href="https://www.bmes-uiuc.com/" role="button">Learn more! &raquo;</a></p>
+          </div>
+
+        <hr>
+
+      </div> <!-- /container -->
+
+      
+
+    </main>
+
+    <footer class="container">
+      <p>&copy; Company 2017-2018</p>
+    </footer>
+
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -62,3 +133,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+
