@@ -18,7 +18,7 @@ def XNAInfo():
     return render_template('XNAInfo.html')
 
 @app.route('/TargetInfo')
-def XNAInfo():
+def TargetInfo():
     return render_template('TargetInfo.html')
 
 # start the server with the 'run()' method
