@@ -13,6 +13,10 @@ def home():
 def welcome():
     return render_template('welcome.html')  # route and render the welcome page
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
+
 # start the server with the 'run()' method
 if __name__ == '__main__':
     app.run(debug=True)
