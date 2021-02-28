@@ -9,10 +9,6 @@ app = Flask(__name__)
 def home():
     return render_template('index.html') 
 
-@app.route('/about')
-def about():
-    return render_template('aboutEOH.html')
-
 @app.route('/XNAInfo')
 def XNAInfo():
     return render_template('XNAInfo.html')
@@ -20,6 +16,14 @@ def XNAInfo():
 @app.route('/TargetInfo')
 def TargetInfo():
     return render_template('TargetInfo.html')
+
+@app.route('/model')
+def Model():
+    return render_template('XNAfinder.html')
+
+@app.route('/modelfound')
+def Modelfound():
+    return render_template('ModelFound.html')
 
 # start the server with the 'run()' method
 if __name__ == '__main__':
